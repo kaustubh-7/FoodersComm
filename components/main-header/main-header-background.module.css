@@ -1,0 +1,14 @@
+.header-background {
+    position: absolute;
+    width: 100%;
+    height: 320px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+ .header-background svg { /*  if you want to style an element like <svg> inside a component, you need to target it through a class, when using css module, that you actually assign in your JSX.  */
+    display: block;
+    width: 100%;
+    height: auto;
+  }
